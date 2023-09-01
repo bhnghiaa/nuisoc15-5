@@ -129,10 +129,7 @@
     transform: translateY(-900px) rotate(600deg);
   }
 }
-/***                                  内容区域                                 ***/
-/**                                   第一部分                                  **/
-/*盒子*/
-/*PC端*/
+
 @media screen and (min-aspect-ratio: 10/9) {
   .ly-box01 {
     width: 50px;
@@ -149,7 +146,7 @@
   }
 }
 
-/*移动端*/
+
 @media screen and (max-aspect-ratio: 3/4) {
   .ly-box01 {
     width: 50px;
@@ -166,7 +163,7 @@
   }
 }
 
-/** 移动端动画 **/
+
 @keyframes box_to_point_mobile {
   0% {
     margin-bottom: 50%;
@@ -187,7 +184,7 @@
     left: 48%;
     bottom: 50%;
   }
-  /*打开小球*/
+
   14% {
     margin-bottom: 0;
     width: 80%;
@@ -239,7 +236,7 @@
     left: 48%;
     bottom: 50%;
   }
-  /*打开小球*/
+ 
   14% {
     margin-bottom: 0;
     width: 80%;
@@ -272,7 +269,7 @@
   }
 }
 
-/** PC端动画 **/
+
 @keyframes box_to_point {
   0% {
     margin-bottom: 50%;
@@ -431,7 +428,7 @@
     left: 20%;
   }
 }
-/*文本*/
+
 @media screen and (min-aspect-ratio: 10/9) {
   .ly-txt01 {
     position: absolute;
@@ -1049,8 +1046,7 @@
     margin-top: 0;
   }
 }
-/**                                      第二部分                                       **/
-/*时间轴的线*/
+
 
 .timeline {
   width: 8px;
@@ -1089,7 +1085,7 @@
   opacity: 1;
   transition-delay: 2s;
 }
-/**时间轴上的点**/
+
 .timepoint11 {
   width: 20px;
   height: 20px;
@@ -1111,8 +1107,7 @@
   transition-delay: 2s;
 }
 
-/* 盒子 */
-/*移动端*/
+
 @media screen and (max-aspect-ratio: 3/4) {
   .ly-box11 {
     width: 60%;
@@ -1136,7 +1131,7 @@
     transform: scale(1, 1);
     transition-delay: 2.5s;
   }
-  /* 盒子 */
+
   .ly-box12 {
     width: 60%;
     height: 40%;
@@ -1166,7 +1161,7 @@
   .ly-box12 p {
     font-size: 2.5vw !important;
   }
-  /*小三角*/
+ 
   .ly-triangle11 {
     width: 0;
     height: 0;
@@ -1190,7 +1185,7 @@
     transform: scale(1, 1);
     transition-delay: 3.5s;
   }
-  /*小三角*/
+ 
   .ly-triangle12 {
     width: 0;
     height: 0;
@@ -1214,7 +1209,7 @@
     transform: scale(1, 1);
     transition-delay: 6s;
   }
-  /*图片*/
+  
   .ly-imgbox11 {
     position: absolute;
     bottom: 0;
@@ -1251,7 +1246,7 @@
     bottom: 0;
   }
 
-  /*文本*/
+
   .ly-txt11 {
     font-family: "Poppins", sans-serif;
     font-size: 22px;
@@ -1320,7 +1315,7 @@
     transition-delay: 4s;
   }
 
-  /*文本*/
+
   .ly-txt13 {
     font-family: "Poppins", sans-serif;
     font-size: 30px;
@@ -1398,7 +1393,7 @@
   }
 }
 
-/*电脑*/
+
 @media screen and (min-aspect-ratio: 10/9) {
   .ly-box11 {
     width: 30%;
@@ -1422,7 +1417,7 @@
     transform: scale(1, 1);
     transition-delay: 2.5s;
   }
-  /*小三角*/
+
   .ly-triangle11 {
     width: 0;
     height: 0;
@@ -1446,7 +1441,6 @@
     transform: scale(1, 1);
     transition-delay: 3.5s;
   }
-  /*图片*/
   .ly-imgbox11 {
     position: absolute;
     bottom: 0;
@@ -1481,7 +1475,7 @@
     height: 100%;
     bottom: 0;
   }
-  /*文本*/
+
   .ly-txt11 {
     font-family: "Poppins", sans-serif;
     font-size: 22px;
@@ -1549,7 +1543,7 @@
     transition-delay: 4s;
   }
 
-  /* 盒子 */
+
   .ly-box12 {
     width: 40%;
     height: 600px;
@@ -1572,7 +1566,7 @@
     transform: scale(1, 1);
     transition-delay: 5s;
   }
-  /*小三角*/
+
   .ly-triangle12 {
     width: 0;
     height: 0;
@@ -1596,7 +1590,7 @@
     transform: scale(1, 1);
     transition-delay: 6s;
   }
-  /*文本*/
+
   .ly-txt13 {
     font-family: "Poppins", sans-serif;
     font-size: 30px;
@@ -1674,9 +1668,7 @@
   }
 }
 
-/**                                        第三部分                                  **/
 
-/**时间轴上的点**/
 .timepoint21 {
   width: 20px;
   height: 20px;
@@ -1698,9 +1690,9 @@
   transition-delay: 1.5s;
 }
 
-/* PC */
+
 @media screen and (min-aspect-ratio: 10/9) {
-  /* 盒子 */
+
   .ly-box21 {
     width: 15%;
     height: 600px;
@@ -1723,7 +1715,7 @@
     transform: scale(1, 1);
     transition-delay: 2.5s;
   }
-  /*小三角*/
+
   .ly-triangle21 {
     width: 0;
     height: 0;
@@ -1747,7 +1739,7 @@
     transform: scale(1, 1);
     transition-delay: 3.5s;
   }
-  /*图片*/
+
   .ly-imgbox21 {
     position: absolute;
     bottom: 0;
